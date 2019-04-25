@@ -19,5 +19,7 @@ document.getElementById("submit").onclick = function () {
         case 11:
             document.getElementById("result").innerHTML = "Tháng " + inputMonth + " có 30 ngày.";
             break;
+        default:
+            alert("Nhập vào số tháng từ 1 đến 12");
     }
 }
